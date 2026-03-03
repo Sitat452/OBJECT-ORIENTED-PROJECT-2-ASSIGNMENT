@@ -67,7 +67,7 @@ public class RadioButtonDemo extends JFrame implements ActionListener {
         } 
         else if (cat.isSelected()) {
             selectedPet = "Cat";
-            imageLabel.setIcon(new ImageIcon("CAT IMmAGE.jpg"));
+            imageLabel.setIcon(new ImageIcon("CAT IMMAGE.jpg"));
         } 
         else if (dog.isSelected()) {
             selectedPet = "Dog";
@@ -89,4 +89,5 @@ public class RadioButtonDemo extends JFrame implements ActionListener {
     public static void main(String[] args) {
         new RadioButtonDemo();
     }
+
 }
